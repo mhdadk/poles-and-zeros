@@ -1,6 +1,6 @@
 # code used to generate slices of the magnitude and phase plots of
 #
-# H(s) = (s - 0.5) / (s - 0.1) * (s + 0.5)
+# H(s) = s * (s + 0.5j) * (s - 0.5j) / ((s - (-0.5 + 1.5j)) * (s - (-0.5 - 1.5j)))
 #
 import numpy as np
 import matplotlib.pyplot as plt
